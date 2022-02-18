@@ -1,0 +1,18 @@
+/* COMMON RULES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --style_color_principal:
+    --style_color_secondary:
+}
+
+/***** HEADER *****/
+
+/***** MAIN *****/
+
+/***** FOOTER *****/
