@@ -8,10 +8,11 @@
 
 :root{
     --style_color_principal: white;
-    --style_color_header: blue;
-    --style_color_second_block_main: darkblue;
-    --style_1row_main: red;
-    --style_2row_main: yellow;
+    --style_color_header: #E579E6;
+    --style_color_second_block_main: #0086FF;
+    --style_1row_main: #E1D67A;
+    --style_2row_main: #ABCFE7;
+    --style_color_footer: #8801FE;
 }
 
 /* CONTEINER_BIG */
@@ -26,7 +27,7 @@
 #site_header{
     background-color: var(--style_color_header);
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 
 /***** MAIN *****/
@@ -86,7 +87,7 @@
 /***** FOOTER *****/
 
 #site_footer{
-    background-color: blueviolet;
+    background-color: var(--style_color_footer);
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
